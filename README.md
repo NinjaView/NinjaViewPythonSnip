@@ -69,6 +69,9 @@ Replace icon.ico with the path to your icon file.
 http://virustotal.com/
 ```https://www.virustotal.com/gui/file/cfb5f7f7b6997bf247ba64d165ea135fde34c641b2d256fe03ef5c3562546047?nocache=1```
 
+
+NOTE : It should be noted that we use "base64" to include the sysicon tray image directly in the script since using Pyinstaller --icon causes more false virus flags to popup causing more confusion.
+
 # This concludes the reason behind the false virus alerts
 
 support@ninja-view.com
