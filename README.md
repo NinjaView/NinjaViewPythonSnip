@@ -73,3 +73,14 @@ http://virustotal.com/
 
 support@ninja-view.com
 
+
+## Note on False Positive Antivirus Flags
+When compiling Python scripts to executable files using PyInstaller, the resulting executable might be flagged by some antivirus programs as suspicious or malicious. This is a known issue with PyInstaller and other similar tools, and it happens because:
+
+Heuristic Analysis: Antivirus programs use heuristic analysis to detect unusual patterns that might indicate malicious behavior. Compiled Python scripts often exhibit such patterns because the Python interpreter, script, and all dependencies are bundled into a single executable file.
+
+Code Obfuscation: Some parts of the Python script may be obfuscated to protect intellectual property, which can trigger false positives.
+
+Lack of Reputation: Newly created or rarely downloaded files might not have an established reputation, making them more likely to be flagged as potential threats.
+
+Use in Malware: Unfortunately, attackers sometimes use tools like PyInstaller to package malicious scripts, which has led to a negative reputation for executables created with these tools.
