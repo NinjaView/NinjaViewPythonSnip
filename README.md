@@ -64,3 +64,12 @@ If you want to add an icon to the executable, you can use the --icon option (Thi
 pyinstaller --onefile --noconsole --icon=icon.ico proof.py
 ```
 Replace icon.ico with the path to your icon file.
+
+# Scan your compiled .exe
+http://virustotal.com/
+```https://www.virustotal.com/gui/file/cfb5f7f7b6997bf247ba64d165ea135fde34c641b2d256fe03ef5c3562546047?nocache=1```
+
+# This concludes the reason behind the false virus alerts
+
+support@ninja-view.com
+
