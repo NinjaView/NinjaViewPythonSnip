@@ -15,6 +15,13 @@ You can install the required Python packages using the following command:
 
 ```sh
 pip install flask pystray Pillow requests psutil pyperclip
+or
+pip install psutil
+pip install Pillow
+pip install requests
+pip install pyperclip
+pip install pystray
+pip install flask
 ```
 ## Setup
 Clone the Repository or Download the Script: Download the Python script from its repository or any provided source.
