@@ -6,7 +6,7 @@
 
 This document serves as an informative guide, detailing the functionality and setup process of a Python script integral to the NinjaView application. It is worth mentioning that, although the application is secure, certain antivirus programs might mistakenly identify it as a potential threat. This document aims to address these concerns and guide users through the installation and execution process.
 
-`proof.py` uses NinjaTrader's Advanced Trade Interface (ATI) to place trades and manage orders. It establishes a connection to NinjaTrader's ATI port and sends trading commands directly, ensuring a seamless and swift execution of trades. Below is a simplified example of how it sends a trade command to NinjaTrader:
+`nv.py` uses NinjaTrader's Advanced Trade Interface (ATI) to place trades and manage orders. It establishes a connection to NinjaTrader's ATI port and sends trading commands directly, ensuring a seamless and swift execution of trades. Below is a simplified example of how it sends a trade command to NinjaTrader:
 
 ```
 import os
@@ -61,8 +61,9 @@ command = "PLACE;Account=Sim1;Instrument=ES 12-23;Action=BUY;Qty=1;OrderType=LIM
 send_ati_command(command)
 ```
 
-##Why is NinjaView a Paid Application?
-NinjaView is a paid application because it represents the culmination of extensive research, development, and overcoming numerous challenges to provide a reliable and effective trading solution. The integration with NinjaTrader through its ATI port, as demonstrated in proof.py, required significant time and effort to perfect. Your purchase and support ensure continued development, improvements, and customer support for NinjaView, enabling traders to enhance their trading experience seamlessly.
+## Why is NinjaView a Paid Application?
+NinjaView is a paid application because it represents the culmination of extensive research, development, and overcoming numerous challenges to provide a reliable and effective trading solution. The integration with NinjaTrader through its ATI port, as demonstrated in nv.py, required significant time and effort to perfect. Your purchase and support ensure continued development, improvements, and customer support for NinjaView, enabling traders to enhance their trading experience seamlessly.
+
 ## Prerequisites
 
 Before proceeding, ensure that you have the following prerequisites installed on your system:
@@ -102,7 +103,7 @@ Note: Some of the packages that might be required include os, winreg, sys, uuid,
 Running the Script
 Execute the Script: Run the script using Python.
 ```
-python proof.py
+python nv.py
 ```
 Compiling with PyInstaller
 Install PyInstaller: If you don’t have PyInstaller installed, you can install it using pip:
@@ -114,12 +115,12 @@ Compile the Script: Use PyInstaller to compile the script.
 
 
 ```
-pyinstaller --onefile --noconsole proof.py
+pyinstaller --onefile --noconsole nv.py
 ```
 If you want to add an icon to the executable, you can use the --icon option (This will cause more false anti-virus flags:
 
 ```
-pyinstaller --onefile --noconsole --icon=icon.ico proof.py
+pyinstaller --onefile --noconsole --icon=icon.ico nv.py
 ```
 Replace icon.ico with the path to your icon file.
 
