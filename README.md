@@ -64,6 +64,13 @@ send_ati_command(command)
 ## Why is NinjaView a Paid Application?
 NinjaView is a paid application because it represents the culmination of extensive research, development, and overcoming numerous challenges to provide a reliable and effective trading solution. The integration with NinjaTrader through its ATI port, as demonstrated in nv.py, required significant time and effort to perfect. Your purchase and support ensure continued development, improvements, and customer support for NinjaView, enabling traders to enhance their trading experience seamlessly.
 
+## Building Trust in a New Frontier
+
+NinjaView is a relatively new entrant in the trading software domain. We understand that building trust within the trading community takes time, especially when introducing innovative solutions that have never been seen before. Our commitment to transparency, security, and relentless improvement is unwavering. We are here to revolutionize trading automation and provide traders with unparalleled tools for success.
+
+We encourage users to reach out with any questions, concerns, or feedback. Your insights and experience with NinjaView are invaluable to us and the wider trading community. Together, we are shaping the future of trading automation.
+
+
 ## Prerequisites
 
 Before proceeding, ensure that you have the following prerequisites installed on your system:
